@@ -29,11 +29,11 @@ Eigenvalues of M are 0.5875 ± 0.1205i, so |λ| = 0.60.
 Two things follow. |λ| < 1 means the population shrinks even with no weather at all. The eigenvalues being complex means it doesn't shrink smoothly — biomass swings back and forth between canopy-heavy and below-surface-heavy because the two stages mature at different
 speeds.
 
-![decay](figures/decay_vs_theory.png)
+![decay](decay_vs_theory.png)
 
 Simulating calm conditions matches |λ|^t, which checks the eigenvalue math.
 
-![ensemble](figures/ensemble.png)
+![ensemble](ensemble.png)
 
 Running 300 random weather sequences, every single one declines. Weather makes it faster or slower but never causes growth.
 
